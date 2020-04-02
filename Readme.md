@@ -1,6 +1,6 @@
 ﻿**
 
-## GitHub Action
+# GitHub Actions
 
  
 
@@ -22,5 +22,5 @@
 8. Open created Web App in Azure Portal and download profile file using “Get Publish Profile” link
 9. Go to github repository -> Settings -> Secrets -> Add a new secrets
 10. Add Name as “azureWebAppPublishProfile” and paste all contents of profile (downloaded in step 8)
-11. That’s all, GitHub action will be triggered if you modify the file in the repository.
+11. That’s all, GitHub actions will be triggered if you modify a file in the repository.
 12. Open Web App and Sonarcloud URLs to see application and static code analysis results respectively
