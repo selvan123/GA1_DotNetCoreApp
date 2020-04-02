@@ -1,8 +1,16 @@
 ﻿**
 
-# Setup
+## GitHub Action
 
-**
+ 
+
+ - Perform Sonar Analysis    
+ - Build .NET Core    
+ - Deploy the application into Azure Web App
+
+
+
+# Setup
 
 1. Fork into your github repository
 2. Create account in [https://sonarcloud.io](https://sonarcloud.io) (ignore this step if you already have account)
@@ -14,4 +22,5 @@
 8. Open created Web App in Azure Portal and download profile file using “Get Publish Profile” link
 9. Go to github repository -> Settings -> Secrets -> Add a new secrets
 10. Add Name as “azureWebAppPublishProfile” and paste all contents of profile (downloaded in step 9)
-11. <![endif]>That’s all, GitHub action will be triggered if you modify the file repository.
+11. That’s all, GitHub action will be triggered if you modify the file in the repository.
+12. Open Web App and Sonarcloud URLs to see application and static code analysis results respectively
