@@ -1,0 +1,2 @@
+1. create web app in Azure
+2. change web app name and add profiles (setting->security->key->value) in yaml file under workflow foder
